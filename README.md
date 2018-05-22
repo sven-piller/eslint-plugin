@@ -43,7 +43,6 @@ The main configurations `plugin:mysticatea/es*` does:
 - detect bug-like code by ESLint rules.
 - enforce whitespace style by Prettier.
 - handle the `.ts` files as TypeScript then check by `typescript-eslint-parser` and `eslint-plugin-typescript`.
-- handle the `.vue` files as Vue.js SFC then check by `vue-eslint-parser` and `eslint-plugin-vue`.
 - handle the files in `test`/`tests` directory as `mocha`'s test code.
 - handle the files in `scripts` directory as Node.js environment.
 - handle the `.eslintrc.js` file as a Node.js script.
@@ -122,7 +121,6 @@ This plugin has some original rules and foreign rules.
 - All `mysticatea/eslint-plugin/*` rules are imported from [eslint-plugin-eslint-plugin](https://www.npmjs.com/package/eslint-plugin-eslint-plugin).
 - All `mysticatea/node/*` rules are imported from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node).
 - All `mysticatea/ts/*` rules are imported from [eslint-plugin-typescript](https://www.npmjs.com/package/eslint-plugin-typescript).
-- All `mysticatea/vue/*` rules are imported from [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue).
 - The `mysticatea/prettier` rule is imported from [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier).
 - All `mysticatea/angular/*` rules are imported from [eslint-plugin-angular](https://www.npmjs.com/package/eslint-plugin-angular).
 
