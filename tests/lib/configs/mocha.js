@@ -3,14 +3,14 @@
  * @copyright 2016 Toru Nagashima. All rights reserved.
  * See LICENSE file in root directory for full license.
  */
-"use strict"
+'use strict';
 
-const Rules = require("./_rules")
+const Rules = require('./_rules');
 
 describe("'mocha.js'", () => {
-    const config = require("../../../lib/configs/_mocha")
+  const config = require('../../../lib/configs/_mocha');
 
-    it("should be a valid config.", () => {
-        Rules.validateConfig(config, "mocha.js")
-    })
-})
+  it('should be a valid config.', () => {
+    Rules.validateConfig(config, 'mocha.js');
+  });
+});
