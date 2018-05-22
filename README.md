@@ -32,6 +32,7 @@ Write in your ESLint configurations: http://eslint.org/docs/user-guide/configuri
 - `plugin:mysticatea/es5` ... Basic configuration for ES5.
 - `plugin:mysticatea/+modules` ... Additional configuration for ES modules.
 - `plugin:mysticatea/+browser` ... Additional configuration for browser environment.
+- `plugin:mysticatea/+angular` ... Additional configuration for angularJs browser environment.
 - `plugin:mysticatea/+node` ... Additional configuration for Node.js environment.
 - `plugin:mysticatea/+eslint-plugin` ... Additional configuration for ESLint plugins. This includes `plugin:mysticatea/+node` setting.
 
@@ -123,6 +124,7 @@ This plugin has some original rules and foreign rules.
 - All `mysticatea/ts/*` rules are imported from [eslint-plugin-typescript](https://www.npmjs.com/package/eslint-plugin-typescript).
 - All `mysticatea/vue/*` rules are imported from [eslint-plugin-vue](https://www.npmjs.com/package/eslint-plugin-vue).
 - The `mysticatea/prettier` rule is imported from [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier).
+- All `mysticatea/angular/*` rules are imported from [eslint-plugin-angular](https://www.npmjs.com/package/eslint-plugin-angular).
 
 > **Q:** Why don't you use those plugins directly?<br>
 > **A:** The combination with shareable configs and plugins has some problems because shareable configs were not designed to be used with plugins. @nzakas illustrated a way to use plugins as shareable configs together with other plugins in the discussion [eslint/eslint#3458](https://github.com/eslint/eslint/issues/3458#issuecomment-257161846). This is the way.
