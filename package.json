@@ -1,6 +1,6 @@
 {
   "name": "@svenpiller/eslint-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0-0",
   "description": "Additional ESLint rules.",
   "engines": {
     "node": ">=6.5.0"
