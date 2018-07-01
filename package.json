@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "eslint-plugin-eslint-comments": "^3.0.0",
+    "eslint-plugin-angular": "~3.3.0",
     "eslint-plugin-eslint-plugin": "~1.4.0",
     "eslint-plugin-node": "~6.0.1",
     "eslint-plugin-prettier": "~2.6.0",
@@ -42,7 +43,7 @@
     "clean": "rimraf .nyc_output coverage",
     "lint": "eslint lib scripts tests .eslintrc.js",
     "lintfix": "eslint --fix lib scripts tests .eslintrc.js",
-    "pretest": "npm run -s lintfix",
+    "pretest": "npm run -s lint",
     "test": "nyc mocha \"tests/lib/**/*.js\" --reporter dot",
     "update": "node scripts/generate-browser-globals && node scripts/generate-configs && node scripts/generate-rules",
     "watch": "chokidar lib tests --initial --command \"npm test && nyc report --reporter lcov\"",
