@@ -9,7 +9,7 @@ const fs = require("fs-extra")
 const selfPath = __dirname
 const modulePath = path.resolve(
     __dirname,
-    "node_modules/@mysticatea/eslint-plugin"
+    "node_modules/@svenpiller/eslint-plugin"
 )
 
 // Make symlink to use itself.
@@ -19,5 +19,5 @@ if (!fs.existsSync(modulePath)) {
 }
 
 module.exports = {
-    extends: ["plugin:@mysticatea/es2015", "plugin:@mysticatea/+eslint-plugin"],
+    extends: ["plugin:@svenpiller/es2015", "plugin:@svenpiller/+eslint-plugin"],
 }

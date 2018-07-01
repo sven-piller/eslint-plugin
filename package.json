@@ -1,6 +1,6 @@
 {
-  "name": "@mysticatea/eslint-plugin",
-  "version": "5.0.1",
+  "name": "@svenpiller/eslint-plugin",
+  "version": "0.0.1",
   "description": "Additional ESLint rules.",
   "engines": {
     "node": ">=6.5.0"
@@ -52,7 +52,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mysticatea/eslint-plugin.git"
+    "url": "git+https://github.com/sven-piller/eslint-plugin.git"
   },
   "keywords": [
     "eslint",
@@ -70,7 +70,7 @@
   "author": "Toru Nagashima, Sven Piller",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mysticatea/eslint-plugin/issues"
+    "url": "https://github.com/sven-piller/eslint-plugin/issues"
   },
-  "homepage": "https://github.com/mysticatea/eslint-plugin#readme"
+  "homepage": "https://github.com/sven-piller/eslint-plugin#readme"
 }
